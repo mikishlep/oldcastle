@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Старая крепость</title>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/4ac01864cc.js" crossorigin="anonymous"></script>
+    <header>
+        <nav>
+            <div class="city" id="main">
+                <a href="https://yandex.ru/maps/org/gapou_so_nizhnetagilskiy_gorno_metallurgicheskiy_kolledzh_imeni_ye_a_i_m_ye_cherepanovykh/1053816271/?ll=59.972025%2C57.909422&z=18.24"><img src="img/arrow.svg" alt="" class="arrow"></a>
+                <a href="https://yandex.ru/maps/org/gapou_so_nizhnetagilskiy_gorno_metallurgicheskiy_kolledzh_imeni_ye_a_i_m_ye_cherepanovykh/1053816271/?ll=59.972025%2C57.909422&z=18.24"><p class="city-name">Нижний Тагил</p></a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#main">Главная</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#menu">Наше меню</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+                <div class="social-links-mobile">
+                    <img src="img/insta.svg" alt="" class="inst">
+                    <img src="img/vk.svg" alt="" class="vk">
+                    <img src="img/telegram.svg" alt="" class="telegram">
+                </div>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <div class="social-links">
+                <img src="img/insta.svg" alt="" class="inst">
+                <img src="img/vk.svg" alt="" class="vk">
+                <img src="img/telegram.svg" alt="" class="telegram">
+            </div>
+        </nav>
+        <div class="text-container">
+            <h1>Старая крепость</h1>
+            <p>Твое любимое кафе</p>
+            <button type="button" class="skidka"><a href="">Получить скидку</a></button>
+        </div>
+    </header>
+    <main>
+        <section class="menu" id="menu">
+            <h1 class="title-menu">МЕНЮ</h1>
+            <div class="menu-container">
+                <div class="menu-block">
+                    <img src="img/Espresso_and_napolitains.jpg" alt="" class="card-image">
+                    <div class="card-detail">
+                        <h4>Эспрессо<span>150₽</span></h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p class="card-time"><span class="fa fa-clock"></span> 15-30 мин</p>
+                    </div>
+                </div>
+                <div class="menu-block">
+                    <img src="img/Espresso_and_napolitains.jpg" alt="" class="card-image">
+                    <div class="card-detail">
+                        <h4>Латте<span>150₽</span></h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p class="card-time"><span class="fa fa-clock"></span> 15-30 мин</p>
+                    </div>
+                </div>
+                <div class="menu-block">
+                    <img src="img/Espresso_and_napolitains.jpg" alt="" class="card-image">
+                    <div class="card-detail">
+                        <h4>Чай<span>150₽</span></h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p class="card-time"><span class="fa fa-clock"></span> 15-30 мин</p>
+                    </div>
+                </div>
+                <div class="menu-block">
+                    <img src="img/Espresso_and_napolitains.jpg" alt="" class="card-image">
+                    <div class="card-detail">
+                        <h4>Гангрена<span>150₽</span></h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p class="card-time"><span class="fa fa-clock"></span> 15-30 мин</p>
+                    </div>
+                </div>
+                <div class="menu-block">
+                    <img src="img/Espresso_and_napolitains.jpg" alt="" class="card-image">
+                    <div class="card-detail">
+                        <h4>Эщкере<span>150₽</span></h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p class="card-time"><span class="fa fa-clock"></span> 15-30 мин</p>
+                    </div>
+                </div>
+                <div class="menu-block">
+                    <img src="img/Espresso_and_napolitains.jpg" alt="" class="card-image">
+                    <div class="card-detail">
+                        <h4>Романько<span>150₽</span></h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p class="card-time"><span class="fa fa-clock"></span> 15-30 мин</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sep -->
+        <div class="separation"></div>
+        <!-- sep -->
+
+        <section class="for-lines" id="about">
+            <div class="lines"><img src="img/lines-sec.svg" alt=""></div>
+            <div class="about-us">
+                <div class="collage">
+                    <div class="image-block first"></div>
+                    <div class="image-block second"></div>
+                    <div class="image-block third"></div>
+                    <div class="image-block fourth"></div>
+                    <div class="image-block fifth"></div>
+                    <div class="image-block sixth"></div>
+                    <div class="image-block seventh"></div>
+                    <div class="image-block eighth"></div>
+                </div>
+                <div class="about-us-text">
+                    <h1>Немного о нас</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur. 
+                        Risus tortor id tellus faucibus suspendisse egestas id 
+                        mauris. Vestibulum ornare pellentesque ultricies volutpat 
+                        adipiscing pellentesque odio. In ac arcu a arcu tellus et.
+                         Volutpat et tincidunt risus fringilla quam volutpat. Lorem 
+                         ipsum dolor sit amet consectetur. Risus tortor id tellus faucibus 
+                         suspendisse egestas id mauris. Vestibulum ornare pellentesque 
+                         ultricies volutpat adipiscing pellentesque odio. In ac arcu a 
+                         arcu tellus et. Volutpat et tincidunt risus fringilla quam volutpat.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur. 
+                        Risus tortor id tellus faucibus suspendisse egestas id 
+                        mauris. Vestibulum ornare pellentesque ultricies volutpat 
+                        adipiscing pellentesque odio. In ac arcu a arcu tellus et.
+                         Volutpat et tincidunt risus fringilla quam volutpat. Lorem 
+                         ipsum dolor sit amet consectetur. Risus tortor id tellus faucibus 
+                         suspendisse egestas id mauris. Vestibulum ornare pellentesque 
+                         ultricies volutpat adipiscing pellentesque odio. In ac arcu a 
+                         arcu tellus et. Volutpat et tincidunt risus fringilla quam volutpat.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur. 
+                        Risus tortor id tellus faucibus suspendisse egestas id 
+                        mauris. Vestibulum ornare pellentesque ultricies volutpat 
+                        adipiscing pellentesque odio. In ac arcu a arcu tellus et.
+                         Volutpat et tincidunt risus fringilla quam volutpat. Lorem 
+                         ipsum dolor sit amet consectetur. Risus tortor id tellus faucibus 
+                         suspendisse egestas id mauris. Vestibulum ornare pellentesque 
+                         ultricies volutpat adipiscing pellentesque odio. In ac arcu a 
+                         arcu tellus et. Volutpat et tincidunt risus fringilla quam volutpat.
+                    </p>
+                </div>
+            </div>
+            <div class="about-us-text-mobile">
+                <div class="sep">
+                    <div class="line1"></div>
+                    <div class="dot">•</div>
+                    <div class="line1"></div>
+                </div>
+                <h1>Немного о нас</h1>
+                <p>Lorem ipsum dolor sit amet consectetur. 
+                    Risus tortor id tellus faucibus suspendisse egestas id 
+                    mauris. Vestibulum ornare pellentesque ultricies volutpat 
+                    adipiscing pellentesque odio. In ac arcu a arcu tellus et.
+                     Volutpat et tincidunt risus fringilla quam volutpat. Lorem 
+                     ipsum dolor sit amet consectetur. Risus tortor id tellus faucibus 
+                     suspendisse egestas id mauris. Vestibulum ornare pellentesque 
+                     ultricies volutpat adipiscing pellentesque odio. In ac arcu a 
+                     arcu tellus et. Volutpat et tincidunt risus fringilla quam volutpat.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur. 
+                    Risus tortor id tellus faucibus suspendisse egestas id 
+                    mauris. Vestibulum ornare pellentesque ultricies volutpat 
+                    adipiscing pellentesque odio. In ac arcu a arcu tellus et.
+                     Volutpat et tincidunt risus fringilla quam volutpat. Lorem 
+                     ipsum dolor sit amet consectetur. Risus tortor id tellus faucibus 
+                     suspendisse egestas id mauris. Vestibulum ornare pellentesque 
+                     ultricies volutpat adipiscing pellentesque odio. In ac arcu a 
+                     arcu tellus et. Volutpat et tincidunt risus fringilla quam volutpat.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur. 
+                    Risus tortor id tellus faucibus suspendisse egestas id 
+                    mauris. Vestibulum ornare pellentesque ultricies volutpat 
+                    adipiscing pellentesque odio. In ac arcu a arcu tellus et.
+                     Volutpat et tincidunt risus fringilla quam volutpat. Lorem 
+                     ipsum dolor sit amet consectetur. Risus tortor id tellus faucibus 
+                     suspendisse egestas id mauris. Vestibulum ornare pellentesque 
+                     ultricies volutpat adipiscing pellentesque odio. In ac arcu a 
+                     arcu tellus et. Volutpat et tincidunt risus fringilla quam volutpat.
+                </p>
+                <div class="sep second-separation">
+                    <div class="line1"></div>
+                    <div class="dot">•</div>
+                    <div class="line1"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="info-footer">
+            <p style="color: #fff;">&copy; 2024 Старая Крепость </p>
+            <p style="color: #fff;">+7-912-67-89-736</p>
+            <p style="color: #fff;">+7-912-67-89-736</p>
+        </div>
+    </footer>
+    <script>
+        let navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-100vw";
+        }
+    </script>
+</body>
+</html>

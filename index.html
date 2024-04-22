@@ -11,6 +11,7 @@
 </head>
 <body>
     <script src="https://kit.fontawesome.com/4ac01864cc.js" crossorigin="anonymous"></script>
+    <div id="preloader"></div>
     <header>
         <nav>
             <div class="city" id="main">
@@ -204,6 +205,7 @@
     </footer>
     <script>
         let navLinks = document.getElementById("navLinks");
+        let loader = document.querySelector('#preloader');
         
         function showMenu(){
             navLinks.style.right = "0";
@@ -219,6 +221,10 @@
                 document.documentElement.style.overflowY = "auto";
             }
         }
+
+        window.addEventListener("load", function() {
+            loader.style.display = 'none';
+        });
     </script>
 </body>
 </html>
